@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+td{
+	padding: 5px;
+}
+body{
+	font-size: 20px;
+	font-family: "Trebuchet MS", helvetica, sans-serif;
+	background-color: whitesmoke;
+}
+header{
+	position: fixed;
+	width: 100%;
+	top:0;
+	background-color: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 49px;
+}
+footer{
+	margin-top: 34.5px;
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	background-color: #fff;
+	border-top: 1px solid #d8d8d8;
+	height: 24.5px;
+}
+section{
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+h1{
+		text-shadow: 0.5px 0.5px grey;
+}
+h2{
+	color: #b9c941;
+}
+/************************Formatação do menu************************/
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+a:link{
+	color:#838383;
+}
+a:visited{
+	color:#838383;
+}
+a:hover{
+	background-color: #b9c941;
+	color:#fff;
+}
+a:active{
+	color:#535353;
+}
+/************************IDs************************/
+#cabecalho, #rodape{
+	width:764px;
+	margin: 0 auto;
+}
+#area-principal{
+	width: 744px;
+	margin: 55px auto 10px auto;
+}
+#logo{
+	float:left;
+}
+#menu{
+	float:right;
+	padding: -5px 0px;
+}
+#slogan{
+	font-size: 14px;
+}
+/************************Classes************************/
+.cor_verde{
+	color: #b9c941;
+}
+.cor_preta{
+	color: black;
+}
+.sublinhado{
+	border-bottom: 3px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.formatacao_img{
+	display: block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.arquivo{
+	border-left: 5px solid #d8d8d8;
+	padding-left:5px;
+	display: block;
+	margin-top: 20px; 
+	margin-bottom: 10px;
+}
